@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/x-icon" rel="shortcut icon" href="img/favicon.ico">
+    <link type="image/svg+xml" rel="icon" href="img/logo.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="wrapper__container">
+            <header class="header">
+                <a href="" class="header__logo">
+                    <img src="img/logo.svg" alt="logo">
+                </a>
+            </header>
+            <aside class="sidebar">
+                <form action="#" id="form" class="sidebar__search">
+                    <input onkeyup="validateInput(this)" type="text" required form="form" class="sidebar__input"
+                        placeholder="Search Location...">
+                    <button type="submit" form="form" class="sidebar__btn">
+                        <img src="img/lupa.svg" alt="lupa">
+                    </button>
+                </form>
+                <div class="sidebar__details">Weather Details...</div>
+                <div class="sidebar__description">thunderstorm with light drizzle</div>
+                <div class="sidebar__content">
+                    <div class="sidebar__temp">
+                        <div class="sidebar__key">Temp</div>
+                        <div class="sidebar__value">19°</div>
+                        <img class="sidebar__img" src="img/temp-max.svg" alt="temp1">
+                    </div>
+                    <div class="sidebar__temp-feels">
+                        <div class="sidebar__key">Temp (feels like)</div>
+                        <div class="sidebar__value">15°</div>
+                        <img class="sidebar__img" src="img/temp-min.svg" alt="temp2">
+                    </div>
+                    <div class="sidebar__temp-feels">
+                        <div class="sidebar__key">Humadity</div>
+                        <div class="sidebar__value">58%</div>
+                        <img class="sidebar__img" src="img/humandity.svg" alt="humandity">
+                    </div>
+                    <div class="sidebar__how">
+                        <div class="sidebar__key">Cloudy</div>
+                        <div class="sidebar__value">86%</div>
+                        <img class="sidebar__img" src="img/cloudy.svg" alt="cloudy">
+                    </div>
+                    <div class="sidebar__wind">
+                        <div class="sidebar__key">Wind</div>
+                        <div class="sidebar__value">5km/h</div>
+                        <img class="sidebar__img" src="img/wind.svg" alt="wind">
+                    </div>
+                </div>
+            </aside>
+            <main class="main">
+                <div class="main__temp">16°</div>
+                <div class="main__info">
+                    <h1 class="main__city">London</h1>
+                    <div class="main__date"></div>
+                </div>
+                <div class="main__img">
+                    <img src="img/cloudy.svg" alt="how">
+                </div>
+            </main>
+        </div>
+    </div>
+    <div class="fullscreen">
+        <img src="img/bg-weather.jpg" alt="1">
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
