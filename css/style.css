@@ -155,7 +155,6 @@ body {
     border-left: 0px solid rgba(255, 255, 255, 0.1019607843);
     border-top: 5px solid rgba(255, 255, 255, 0.1019607843);
     padding: 0 15px;
-    min-height: 100%;
   }
 }
 .sidebar__search {
